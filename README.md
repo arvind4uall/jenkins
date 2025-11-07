@@ -361,7 +361,7 @@ kops delete cluster --name reyaz.k8s.local --yes
 
 **Best practice:** Run without `--yes` first to see what will be deleted:
 ```bash
-kops delete cluster --name reyaz.k8s.local
+kops delete cluster --name fsdarvind.k8s.local
 ```
 
 **Note:** The S3 state bucket is NOT deleted. You must delete it manually if needed:
