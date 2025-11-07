@@ -341,12 +341,12 @@ kubectl get pods --all-namespaces
 
 #### Command: Delete Cluster
 ```bash
-kops delete cluster --name reyaz.k8s.local --yes
+kops delete cluster --name fsdarvind.k8s.local --yes
 ```
 
 **Explanation:**
 - `delete cluster`: Destroys all AWS resources created by KOPS
-- `--name reyaz.k8s.local`: Cluster name to delete
+- `--name fsdarvind.k8s.local`: Cluster name to delete
 - `--yes`: Auto-confirms deletion (dangerous!)
 
 **What gets deleted:**
